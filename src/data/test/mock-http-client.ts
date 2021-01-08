@@ -4,10 +4,14 @@ import {
 } from "../protocols/http/http-post-client";
 
 export class HttpPostClientSpy implements HttpPostClient {
-  //captura valores para comparar e cola valores fakes
+  //SPY captura valores para comparar e cola valores fakes
+
   url?: string;
+  body?: object;
+
   async post(params: HttpPostParams): Promise<void> {
     this.url = params.url;
+    this.body = params.body;
     return Promise.resolve();
   }
 }
