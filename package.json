@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Lucas Santana <lucassantana.santos@protonmail.com>",
+  "scripts": {
+    "test": "jest"
+  },
   "license": "MIT",
   "dependencies": {
     "@types/jest": "^26.0.20",
