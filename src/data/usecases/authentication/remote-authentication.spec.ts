@@ -99,6 +99,6 @@ describe("RemoteAuthentication", () => {
       body: httpResult,
     };
     const account = await sut.auth(mockAuthentication());
-    expect(account).toEqual(httpResult); 
+    expect(account).toEqual(httpResult);
   });
 });
