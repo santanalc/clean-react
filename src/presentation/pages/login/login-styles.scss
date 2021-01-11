@@ -43,23 +43,6 @@ button {
   height: 100vh;
   justify-content: space-between;
 
-  .header {
-    background-color: $primary;
-    display: flex;
-    flex-direction: column;
-    border-top: 40px solid $primaryDark;
-    align-items: center;
-
-    img {
-      margin-top: 40px;
-    }
-
-    h1 {
-      color: $white;
-      margin: 16px 0px 40px;
-    }
-  }
-
   .form {
     display: flex;
     flex-direction: column;
@@ -74,22 +57,6 @@ button {
       color: $primaryDark;
       text-align: center;
       text-transform: uppercase;
-    }
-
-    .inputWrap {
-      margin-top: 16px;
-      display: flex;
-      position: relative;
-
-      input {
-        flex-grow: 1;
-      }
-
-      .status {
-        position: absolute;
-        right: 8px;
-        top: 10px;
-      }
     }
 
     .submit {
@@ -120,10 +87,5 @@ button {
         color: $primaryLight;
       }
     }
-  }
-
-  .footer {
-    background-color: $primary;
-    height: 40px;
   }
 }
