@@ -4,7 +4,7 @@
   "main": "index.js",
   "author": "Lucas Santana <lucassantana.santos@protonmail.com>",
   "scripts": {
-    "start": "webpack-dev-server --open",
+    "start": "webpack serve --open",
     "test": "jest --passWithNoTests --no-cache --runInBand",
     "test:watch": "yarn test -- --watch",
     "test:staged": "yarn test -- --findRelatedTests",
@@ -30,6 +30,7 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-standard": "^5.0.0",
     "faker": "^5.1.0",
+    "file-loader": "^6.2.0",
     "git-commit-msg-linter": "^3.0.0",
     "husky": "^4.3.7",
     "identity-obj-proxy": "^3.0.0",
@@ -43,6 +44,7 @@
     "ts-jest": "^26.4.4",
     "ts-loader": "^8.0.14",
     "typescript": "^4.1.3",
+    "url-loader": "^4.1.1",
     "webpack": "^5.12.2",
     "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.1"
