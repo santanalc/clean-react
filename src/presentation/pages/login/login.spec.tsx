@@ -4,6 +4,8 @@ import Login from "../login/login";
 
 describe("", () => {
   test("", () => {
-    render(<Login></Login>);
+    const { getByTestId } = render(<Login />);
+    const errorWrap = getByTestId("error-wraper");
+    expect(errorWrap.childElementCount).toBe(2);
   });
 });
